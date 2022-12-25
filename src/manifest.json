@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Extension Boilerplate",
+    "description": "Boilerplate for Chrome Extension",
+    "version": "0.1.0",
+    "icons": {
+      "128": "images/icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*"],
+        "js": ["content_scripts.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
